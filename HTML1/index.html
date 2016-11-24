@@ -67,22 +67,40 @@
             <table class="table table-hover table-striped">
               <thead>
                 <tr>
-                  <th>№</th>
+                  <th><a href="">№</a></th>
                   <th>Фото</th>
-                  <th>Прізвище</th>
-                  <th>Ім’я</th>
-                  <th>№ Білету</th>
+                  <th><a href="">Прізвище &uarr;</a></th>
+                  <th><a href="#">Ім’я</a></th>
+                  <th><a href="#">№ Білету</a></th>
                   <th>Дії</th>
-                </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Буде фото</td>
-                  <td>Іваненко</td>
-                  <td>Андрій</td>
+                  <td><img height="30" width="30" src="./img/me1.jpg"></td>
+                  <td><a title="Редагувати" href="#">Іваненко</a></td>
+                  <td><a title="Редагувати" href="#">Андрій</a></td>
                   <td>012</td>
-                  <td>Дія</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle"
+                              type="button" data-toggle="dropdown">Дія
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li role="presentation">
+                          <a role="menuitem" tabindex="-1"
+                             href="#">Відвідування</a>
+                        </li>
+                        <li role="presentation">
+                          <a role="menuitem" tabindex="-1" href="#">Редагувати</a>
+                        </li>
+                        <li role="presentation">
+                          <a role="menuitem" tabindex="-1" href="#">Видалити</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
                 </tr>
               </tbody>
             </table>
