@@ -22,13 +22,18 @@
       <div class="row" id="header">
 
         <!-- Logo -->
-        <div class="col-xs-8">
-          Лого
+        <div class=”col-xs-8”> <!-- Через ці лапки -> ” змінюєтьсяя стиль -->
+        <h1>Сервіс Обліку Студентів</h1>
         </div>
 
         <!-- Groups Selector -->
         <div class="col-xs-4" id="group-selector">
-          Селектор Груп
+          <strong>Група:</strong>
+          <select>
+            <option value="">Усі Студенти</option>
+            <option value="">Py - 16, Іваненко Андрій (№ 012)</option>
+            <option value="">Py - 17, Петренко Віталій (№ 013)</option>
+          </select>
         </div>
       </div>
       <!-- End Header -->
@@ -36,7 +41,11 @@
       <!-- Start SubHeader -->
       <div class="row" id="sub-header">
         <div class="col-xs-12">
-          Навігація
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#">Студенти</a></li>
+            <li role="presentation"><a href="#">Відвідування</a></li>
+            <li role="presentation"><a href="#">Групи</a></li>
+          </ul>
         </div>
       </div>
       <!-- End SubHeader -->
@@ -53,7 +62,7 @@
       <!-- Start Footer -->
       <div class="row" id="footer">
         <div class="col-xs-12">
-          Footer
+          &copy; 2016 Сервіс Обліку Студентів
         </div>
       </div>
       <!-- End Footer -->
