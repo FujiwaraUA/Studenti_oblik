@@ -38,9 +38,9 @@
       <div class="row" id="sub-header">
         <div class="col-xs-12">
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#">Студенти</a></li>
-            <li role="presentation"><a href="#">Відвідування</a></li>
-            <li role="presentation"><a href="#">Групи</a></li>
+            <li role="presentation" class="active"><a href="/">Студенти</a></li>
+            <li role="presentation"><a href="/journal">Відвідування</a></li>
+            <li role="presentation"><a href="/groups">Групи</a></li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@
           <h2>База Студентів</h2>
 
           <!-- Add Student Button -->
-          <a class="btn btn-primary" href="#">Додати Студента</a>
+          <a class="btn btn-primary" href="/students/add">Додати Студента</a>
 
           <div>
             <!-- Start Students Listing -->
@@ -75,8 +75,8 @@
                 <tr>
                   <td>1</td>
                   <td><img src="./img/me1.jpg" class="img-thumbnail" height="50" width="50"></td>
-                  <td><a title="Редагувати" href="#">Іваненко</a></td>
-                  <td><a title="Редагувати" href="#">Андрій</a></td>
+                  <td><a title="Редагувати" href="/students/125/edit">Іваненко</a></td>
+                  <td><a title="Редагувати" href="/students/125/edit">Андрій</a></td>
                   <td>012</td>
                   <td>
                     <div class="dropdown">
@@ -85,15 +85,15 @@
                       </button>
                       <ul class="dropdown-menu" role="menu">
                         <li role="presentation">
-                          <a role="menuitem" tabindex="-1" href="#">Відвідування</a>
+                          <a role="menuitem" tabindex="-1" href="/journal/125">Відвідування</a>
                         <br>
 </li>
                         <li role="presentation">
-                          <a role="menuitem" tabindex="-1" href="#">Редагувати</a>
+                          <a role="menuitem" tabindex="-1" href="/students/125/edit">Редагувати</a>
                         <br>
 </li>
                         <li role="presentation">
-                          <a role="menuitem" tabindex="-1" href="#">Видалити</a>
+                          <a role="menuitem" tabindex="-1" href="/students/125/delete">Видалити</a>
                         <br>
 </li>
                       </ul>
