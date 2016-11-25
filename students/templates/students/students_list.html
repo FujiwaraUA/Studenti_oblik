@@ -1,3 +1,5 @@
+{% load static from staticfiles %}
+
 <!DOCTYPE html>
 <html lang="uk"><head>
 
@@ -10,7 +12,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!--    <style type="text/css">.col-xs-12, .col-xs-4, .col-xs-8 {border:1px solid red;}</style> -->
-    <link rel="stylesheet" href="/static/css/main.css"></head><body>
+    <link rel="stylesheet" href="{% static "css/main.css" %}"></head><body>
     <!-- Start Container -->
     <div class="container">
 
@@ -74,7 +76,7 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td><img src="/static/img/me1.jpg" class="img-thumbnail" height="50" width="50"></td>
+                  <td><img src="{% static "img/me1.jpg" %}" class="img-thumbnail" height="50" width="50"></td>
                   <td><a title="Редагувати" href="{% url "students_edit" 125 %}">Іваненко</a></td>
                   <td><a title="Редагувати" href="{% url "students_edit" 125 %}">Андрій</a></td>
                   <td>012</td>
