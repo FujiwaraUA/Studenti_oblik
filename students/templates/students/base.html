@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8"><title>Сервіс Обліку Студентів - {% block meta_title %}{% endblock meta_title %}</title>
 
-    <meta name="description" value="Система Обліку Студентів Навчального Закладу"><!-- Include Styles -->
+    <meta name="description" content="Система Обліку Студентів Навчального Закладу"><!-- Include Styles -->
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -29,11 +29,13 @@
         <!-- Groups Selector -->
         <div class="col-xs-4" id="group-selector">
           <strong>Група:</strong>
-          <select>
-            <option value="">Усі Студенти</option>
-            <option value="">Py - 16, Іваненко Андрій (№ 012)</option>
-            <option value="">Py - 17, Петренко Віталій (№ 013)</option>
-          </select>
+            <label>
+                <select>
+                    <option value="">Усі Студенти</option>
+                    <option value="">Py - 16, Іваненко Андрій (№ 012)</option>
+                    <option value="">Py - 17, Петренко Віталій (№ 013)</option>
+                </select>
+            </label>
         </div>
       </div>
       <!-- End Header -->
