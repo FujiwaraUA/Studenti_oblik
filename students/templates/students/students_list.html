@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk"><head>
+
+
+
+    <meta charset="UTF-8"><title>Сервіс Обліку Студентів</title>
+
+    <meta name="description" value="Система Обліку Студентів Навчального Закладу"><!-- Include Styles -->
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">.col-xs-12, .col-xs-4, .col-xs-8 {border:1px solid red;}</style>
+    <link rel="stylesheet" href="./css/main.css"></head><body>
+    <!-- Start Container -->
+    <div class="container">
+
+      <!-- Start Header -->
+      <div class="row" id="header">
+
+        <!-- Logo -->
+        <div class="”col-xs-8”">
+        <h1>Сервіс Обліку Студентів</h1>
+        </div>
+
+        <!-- Groups Selector -->
+        <div class="col-xs-4" id="group-selector">
+          <strong>Група:</strong>
+          <select>
+            <option value="">Усі Студенти</option>
+            <option value="">Py - 16, Іваненко Андрій (№ 012)</option>
+            <option value="">Py - 17, Петренко Віталій (№ 013)</option>
+          </select>
+        </div>
+      </div>
+      <!-- End Header -->
+
+      <!-- Start SubHeader -->
+      <div class="row" id="sub-header">
+        <div class="col-xs-12">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#">Студенти</a></li>
+            <li role="presentation"><a href="#">Відвідування</a></li>
+            <li role="presentation"><a href="#">Групи</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End SubHeader -->
+
+      <!-- Start Main Page Content -->
+      <div class="row" id="content-columns">
+
+        <div class="col-xs-12" id="content-column">
+
+          <!-- Status Message -->
+          <div class="alert alert-warning">Зміни скасовано.</div>
+
+          <h2>База Студентів</h2>
+
+          <!-- Add Student Button -->
+          <a class="btn btn-primary" href="#">Додати Студента</a>
+
+          <div>
+            <!-- Start Students Listing -->
+            <table class="table table-hover table-striped">
+              <thead>
+                <tr>
+                  <th><a href="">№</a></th>
+                  <th>Фото</th>
+                  <th><a href="">Прізвище ↑</a></th>
+                  <th><a href="#">Ім’я</a></th>
+                  <th><a href="#">№ Білету</a></th>
+                  <th>Дії</th>
+              </tr></thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td><img src="./img/me1.jpg" class="img-thumbnail" height="50" width="50"></td>
+                  <td><a title="Редагувати" href="#">Іваненко</a></td>
+                  <td><a title="Редагувати" href="#">Андрій</a></td>
+                  <td>012</td>
+                  <td>
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Дія
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li role="presentation">
+                          <a role="menuitem" tabindex="-1" href="#">Відвідування</a>
+                        <br>
+</li>
+                        <li role="presentation">
+                          <a role="menuitem" tabindex="-1" href="#">Редагувати</a>
+                        <br>
+</li>
+                        <li role="presentation">
+                          <a role="menuitem" tabindex="-1" href="#">Видалити</a>
+                        <br>
+</li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- End Students Listing -->
+          </div>
+
+        <nav>
+          </nav><ul class="pagination">
+            <li><a href="#">«</a></li>
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">»</a></li>
+          </ul>
+
+
+
+        </div>
+
+      </div>
+      <!-- End Main Page Content -->
+
+      <!-- Start Footer -->
+      <div class="row" id="footer">
+        <div class="col-xs-12">
+          © 2016 Сервіс Обліку Студентів
+        </div>
+      </div>
+      <!-- End Footer -->
+
+    </div>
+    <!-- End Container -->
+
+    <!-- Javascripts Section -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body></html>
